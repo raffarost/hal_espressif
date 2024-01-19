@@ -406,3 +406,24 @@ dac:
   ch2:
     sigo: dac2_out
     gpio: [26]
+
+sdio:
+  clk:
+    sigo: clk_out
+    gpio: [14]
+  cmd:
+    sigo: host_ccmd_od_pullup_en_n
+    gpio: [15]
+  dat0:
+    sigo: gpio_sd0_out
+    gpio: [2]
+  dat1:
+    sigo: gpio_sd1_out
+    gpio: [4]
+  dat2:
+    sigo: gpio_sd2_out
+    gpio: [12]
+  dat3:
+    sigo: gpio_sd3_out
+    gpio: [13]
+
